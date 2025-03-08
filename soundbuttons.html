@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Just Html</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buttons.html"><i class="bi bi-menu-button-wide-fill"></i>Just Buttons</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=hB7CDrVnNCs">Overated Meme</a></li>
+                <li><a class="dropdown-item" href="justsearch.html">Just Search</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<script>function playSound(id) 
+{ 
+    var sound = document.getElementById(id); 
+sound.play(); 
+}
+</script>
+
+
+
+
+
+<h1 class="cn1">Just SoundBoard</h1>
+<p><strong>Warning, some sounds are loud, the sound levels will be noted below:</strong></p>
+
+<button type="button" class="btn btn-danger">This is a loud bass boosted sound button</button>
+<button type="button" class="btn btn-warning">This is one that can annoy someone and can be heard</button>
+<button type="button" class="btn btn-success">This is a normal sound button</button>
+<h2 class="cn2">Meme sounds</h2>
+<button onclick="location.reload()" class="btn btn-outline-danger cn4"><strong>Stop All Sounds</strong></button>
+<div class="cn3">
+  
+    <button onclick="playSound('sound1')" class="btn btn-success">2 hours later</button> 
+    <audio id="sound1" src="2hourslater.mp3"></audio>
+
+<button onclick="playSound('sound2')" class="btn btn-warning">2sad4me</button>
+<audio id="sound2" src="2sad4me.mp3"></audio>
+
+<button onclick="playSound('sound3')" class="btn btn-danger">2sad4me AirHorn</button>
+<audio src="2sad4meairhorn.mp3" id="sound3"></audio>
+
+<button type="button" onclick="playSound('sound4')" class="btn btn-success">A potato flew around my room</button>
+<audio src="apotatoflewaroundmyroom.mp3" id="sound4"></audio>
+
+<button type="button" onclick="playSound('sound5')" class="btn btn-success">Accidents Happen</button>
+<audio src="acidentshappen.mp3" id="sound5"></audio>
+
+
+<button type="button" onclick="playSound('sound6')" class="btn btn-danger">Ahh Bass boosted</button>
+<audio src="ahhbassboost.mp3" id="sound6"></audio>
+
+<button type="button" onclick="playSound('sound7')" class="btn btn-warning">Aghhhh!</button>
+<audio src="aughhh.mp3" id="sound7"></audio>
+
+<button type="button" onclick="playSound('sound8')" class="btn btn-warning">AirHorn</button>
+<audio src="airhorn.mp3" id="sound8"></audio>
+
+<button type="button" onclick="playSound('sound9')" class="btn btn-success">Aint no one got time 4 that</button>
+<audio src="noonegotime4that.mp3" id="sound9"></audio>
+
+<button type="button" onclick="playSound('sound10')" class="btn btn-warning">Air Horn x3</button>
+<audio src="airhornmany.mp3" id="sound10"></audio>
+
+<button type="button" onclick="playSound('sound11')" class="btn btn-success">Apple Alarm Clock</button>
+<audio src="alarmclock.mp3" id="sound11"></audio>
+
+<button type="button" onclick="playSound('sound12')" class="btn btn-danger">Alia Intro</button>
+<audio src="aliathing.mp3" id="sound12"></audio>
+
+<button type="button" onclick="playSound('sound13')" class="btn btn-danger">Allha Alakbar</button>
+<audio src="allualakbar.mp3" id="sound13">diddy</audio>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Buttons</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Just Html</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buttons.html"><i class="bi bi-menu-button-wide-fill"></i>Just Buttons</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=hB7CDrVnNCs">Overated Meme</a></li>
+                <li><a class="dropdown-item" href="justsearch.html">Just Search</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <h1 class="cn1">Just Buttons!</h1>
+
+  <header>
+  
+</header>
+<section>
+
+ 
+    <section>
+        <header>
+            <h1>Just Buttons</h1>
+        </header>
+        <article>
+            <p>
+                Explore the simplicity and elegance of buttons in their purest form with <strong>Just HTML</strong>. This section showcases a variety of button styles and functionalities, all created using basic HTML and Bootstrap. From classic primary buttons to interactive elements, discover how buttons can enhance user experience without the need for complex code.
+            </p>
+        </article>
+        <article>
+            <h2>What You'll Find</h2>
+            <ul>
+                <li><strong>Primary Button</strong>: The standard button style with a bold look.</li>
+                <li><strong>Alert Button</strong>: An interactive button that triggers an alert message.</li>
+                <li><strong>Link Styled as Button</strong>: A hyperlink styled to look like a button, blending form with functionality.</li>
+                <li><strong>Outline Button</strong>: A sleek button style with an outline border.</li>
+                <li><strong>Block Button</strong>: Full-width buttons that span the entire line.</li>
+                <li><strong>Disabled Button</strong>: Buttons that are visually distinct and cannot be clicked.</li>
+                <li><strong>Button Group</strong>: A cohesive group of buttons displayed inline.</li>
+            </ul>
+            <p>
+                Each button demonstrates the versatility and power of HTML combined with Bootstrap, proving that sometimes, less is more.
+            </p>
+        </article>
+    </section>
+    
+    <hr style="border: 1px solid;">
+<h1>Buttons!</h1>
+<button type="button" class="btn btn-primary" style="text-align: center;">Hello I Am <strong>Just</strong> a button</button>
+<button type="button" class="btn btn-secondary" onclick="alert('ALERT');">Press to get alerted</button>
+<button type="button" class="btn btn-outline-success">outline</button>
+<a href="secret.html"><button type="button" class="btn btn-danger">Virus Downloader</button></a>
+<button type="button" class="btn btn-outline-primary">Hello I am <strong>Just</strong> a outlined button</button>
+<button type="button" class="btn btn-outline-secondary"> This is another button</button>
+ <button type="button" class="btn btn-outline-danger" id="virusdownloader" onclick="getVirus()">DO NOT PRESS</button>
+
+
+
+ <script>
+
+  function getVirus() {
+
+  let virusvar = document.getElementById(getVirus);
+  
+  
+   let hackvir = prompt("Would You Like To Continue?");
+  hackvir=hackvir.toLowerCase
+
+  }
+ </script>
+</body>
+</html>
